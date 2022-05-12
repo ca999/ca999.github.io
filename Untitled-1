@@ -1,0 +1,261 @@
+{
+  "micros/support-issue-hydration" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "POST" ],
+      "botUsername" : "support-issue-hydration-gsac-bot",
+      "canImpersonateCustomers" : false
+    } ]
+  },
+  "micros/knowledge-center-service" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "POST" ],
+      "botUsername" : "knowledge-center-service-bot",
+      "canImpersonateCustomers" : false
+    } ]
+  },
+  "micros/cst-support-service" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "cst-support-service-gsac-bot",
+      "canImpersonateCustomers" : true
+    } ]
+  },
+  "micros/support-request-gateway" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "support-request-gateway-bot",
+      "canImpersonateCustomers" : true
+    } ]
+  },
+  "micros/csp-service" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "support-request-gateway-bot",
+      "canImpersonateCustomers" : true
+    } ]
+  },
+  "micros/orchestration" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/openid/1.0/user/update/status.*",
+      "methods" : [ "PUT" ],
+      "botUsername" : "atlas-desk-bot",
+      "canImpersonateCustomers" : false
+    } ]
+  },
+  "micros/rpa" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/openid/1.0/.*",
+      "methods" : [ "POST", "GET" ],
+      "botUsername" : "rpa-gtm-bot",
+      "canImpersonateCustomers" : false
+    } ]
+  },
+  "rpa-managed-services" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/openid/1.0/.*",
+      "methods" : [ "POST", "GET" ],
+      "botUsername" : "rpa-gtm-bot",
+      "canImpersonateCustomers" : false
+    } ]
+  },
+  "micros/cst-right-to-access" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/api/2/issue/.*",
+      "methods" : [ "GET", "POST" ],
+      "botUsername" : "right-to-access-bot",
+      "canImpersonateCustomers" : false
+    } ]
+  },
+  "micros/customer-billing-administration-connect" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET" ],
+      "botUsername" : "account-details-plugin-bot",
+      "canImpersonateCustomers" : false
+    } ]
+  },
+  "micros/community-support-service" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "community-support-bot",
+      "canImpersonateCustomers" : false
+    } ]
+  },
+  "micros/support-api-gateway" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "support-api-gateway-gsac-bot",
+      "canImpersonateCustomers" : true
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "atl-gsac-issue-score-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "cst-data-retention-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "cst-camunda-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "cst-support-service-gsac-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "cst-ticket-segment-service-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "rpa-gtm-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "trello-automation-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "set-analytics-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "guardians-gsac-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "set-firewatch-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "jira-server-release-automation-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "support-gsacams-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "ia-gsac-prod-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "eandmopp-gsac-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "cst-workato-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST", "DELETE" ],
+      "botUsername" : "tam-auto-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "EandM-op-gsac-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/api/2/.*ink/.*",
+      "methods" : [ "DELETE" ],
+      "botUsername" : "EandM-op-gsac-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/api/2/issue/CES-.*",
+      "methods" : [ "DELETE" ],
+      "botUsername" : "EandM-op-gsac-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "psec-asec-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "set-analytics-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/api/2/issue/.*",
+      "methods" : [ "GET" ],
+      "botUsername" : "cst-itap-bot",
+      "canImpersonateCustomers" : true
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "cloud-deployments-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "mig-automation-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "transfers-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "sst-ansible-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "mpac-robonut-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "field-demo-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "csp-service-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "rocket-fam-css-bot",
+      "canImpersonateCustomers" : false
+    }, {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "vega-bot",
+      "canImpersonateCustomers" : false
+    } ]
+  },
+  "gsac" : {
+    "routes" : [ {
+      "urlMatchRegex" : "/rest/.*",
+      "methods" : [ "GET", "PUT", "POST" ],
+      "botUsername" : "support-request-gateway-bot",
+      "canImpersonateCustomers" : true
+    } ]
+  }
+}
